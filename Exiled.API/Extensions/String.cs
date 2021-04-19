@@ -141,7 +141,7 @@ namespace Exiled.API.Extensions
         {
             var start = input.IndexOf(symbol);
             if (start != 0)
-                input = input.Substring(0, input.Length - start);
+                input = input.Substring(0, start);
 
             return input;
         }
